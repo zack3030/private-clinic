@@ -1,0 +1,953 @@
+
+
+.doctors__container{
+    position: relative;
+    background-color: white;
+   
+}
+
+.doctors__header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+.subtitle__btn{
+   
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.doctors__btn{
+    font-size: var(--size-sm);
+    display: none !important;
+    
+}
+
+.doctors__title{
+   
+    font-size: var(--size-sm);
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.doctors__subtitle{
+    
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.hor-line{
+    position: absolute;
+    display: flex;
+    gap: .5rem;
+}
+
+ .horline-1,
+.horline-3{
+    /* position: absolute; */
+    width: 10px; 
+    /* height: 1px; */
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: 9.5rem;
+}
+
+.horline-2{
+    /* position: absolute; */
+    width: 30px; 
+    /* height: 1px; */
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: 9.5rem;
+    
+}
+
+.doctors__imgs{
+    position: relative;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.fouder-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.doctors__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 7.5rem;
+  right: 0;
+  margin-right: 12.5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.name{
+    
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.title{
+   margin-left: 2.5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+}
+
+/* Dentist */
+
+.dentist-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.dentist__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 7.5rem;
+  right: 0;
+  margin-right: 1rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.dentist__name{
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.dentist__title{
+   margin-left: 3rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    color: var(--clr-rose);
+    font-size: var(--size-sm);
+    font-weight: 800;
+}
+
+/*   neurologist   */
+.neurologist-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.neurologist__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 28rem;
+  right: 0;
+  margin-right: 12.5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.neurologist__name{
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+}
+
+.neurologist__title{
+   margin-left: 2.5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-size: var(--size-sm);
+    font-weight: 800;
+    color: var(--clr-rose);
+}
+
+
+/* consultant*/
+
+.consultant-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.consultant__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 28rem;
+  right: 0;
+  margin-right: 1rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.consultant__name{
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.consultant__title{
+   margin-left: 1.8rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    color: var(--clr-rose);
+    font-size: var(--size-sm);
+    font-weight: 800;
+}
+
+/* dentist 2 */
+
+.dentist-img-2{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.dentist__circle-2{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 46rem;
+  right: 0;
+  margin-right: 12.5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.dentist__name-2{
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+}
+
+.dentist__title-2{
+   margin-left: 2.5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-size: var(--size-sm);
+    font-weight: 800;
+    color: var(--clr-rose);
+}
+
+
+/* nuerologist 2*/
+
+.neurologist-img-2{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.neurologist__circle-2{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 46rem;
+  right: 0;
+  margin-right: 1rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.neurologist__name-2{
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.neurologist__title-2{
+   margin-left: 1.8rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    color: var(--clr-rose);
+    font-size: var(--size-sm);
+    font-weight: 800;
+}
+
+
+/* Media queries*/
+
+
+/* xs*/
+ @media (min-width:475px){
+   
+}
+
+
+@media (min-width:640px){
+    
+}
+
+/*md*/
+@media (min-width:768px){
+
+
+    .doctors__container{
+    position: relative;
+}
+
+.doctors__header{
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+.subtitle__btn{
+   
+    display: flex;
+    gap: 3rem;
+    
+}
+
+.doctors__btn{
+    font-size: var(--size-sm);
+    display: none !important;
+    
+}
+
+.doctors__title{
+   
+    font-size: var(--size-md);
+    font-weight: 300;
+    margin-top: 2rem;
+}
+
+.doctors__subtitle{
+    
+    font-size: var(--size-4xl);
+   
+}
+
+.hor-line{
+    position: absolute;
+    display: flex;
+    gap: .5rem;
+}
+
+ .horline-1,
+.horline-3{
+    /* position: absolute; */
+    width: 10px; 
+    /* height: 1px; */
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: 12.5rem;
+    margin-left: 1rem;
+}
+
+.horline-2{
+    /* position: absolute; */
+    width: 30px; 
+    /* height: 1px; */
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: 11.5rem;
+    
+}
+
+.doctors__imgs{
+    position: relative;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.fouder-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+.doctors__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 9.5rem;
+  right: 0;
+  margin-right: 34.5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.name{
+    
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+}
+
+.title{
+   margin-left: 4.5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+}
+
+/* Dentist */
+
+.dentist-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 5rem;
+}
+
+.dentist__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 9.5rem;
+  right: 0;
+  margin-right: 20.5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.dentist__name{
+    font-weight: 800;
+    margin-top: 2rem;
+}
+
+.dentist__title{
+   margin-left: 3rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    color: var(--clr-rose);
+    font-size: var(--size-sm);
+    font-weight: 800;
+}
+
+/*   neurologist   */
+.neurologist-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 5rem;
+}
+
+.neurologist__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 10rem;
+  right: 0;
+  margin-right: 5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.neurologist__name{
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+}
+
+.neurologist__title{
+   margin-left: 2.5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-size: var(--size-sm);
+    font-weight: 800;
+    color: var(--clr-rose);
+}
+
+
+/* consultant*/
+
+.consultant-img{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.consultant__circle{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 28rem;
+  right: 0;
+  margin-right: 35rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.consultant__name{
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.consultant__title{
+   margin-left: 2rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    color: var(--clr-rose);
+    font-size: var(--size-sm);
+    font-weight: 800;
+}
+
+/* dentist 2 */
+
+.dentist-img-2{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.dentist__circle-2{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 28rem;
+  right: 0;
+  margin-right: 20.5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.dentist__name-2{
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+}
+
+.dentist__title-2{
+   margin-left: 2.5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-size: var(--size-sm);
+    font-weight: 800;
+    color: var(--clr-rose);
+}
+
+
+/* nuerologist 2*/
+
+.neurologist-img-2{
+  
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+
+.neurologist__circle-2{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color:rgb(11, 182, 11);
+    color: white;
+    top: 28rem;
+  right: 0;
+  margin-right: 5rem;
+  padding: .3rem .5rem;
+
+   
+}
+
+.neurologist__name-2{
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+
+.neurologist__title-2{
+   margin-left: 2.5rem;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    color: var(--clr-rose);
+    font-size: var(--size-sm);
+    font-weight: 800;
+}
+    
+}
+
+/*lg*/
+@media (min-width:1024px){
+   
+}
+
+/*xl*/
+ @media (min-width:1280px){
+
+    .doctors__container{
+       padding-bottom: 3rem;
+    }
+   
+    
+    .doctors__header{
+        gap: 4rem;
+        margin-left: 5rem;
+       
+    }
+    
+    .subtitle__btn{
+       
+        display: flex;
+        gap: 3rem;
+        
+    }
+    
+    .doctors__btn{
+        font-size: var(--size-sm);
+        display: flex;
+        
+    }
+    
+    .doctors__title{
+       
+        font-size: var(--size-lg);
+        font-weight: 300;
+        margin-top: 2rem;
+    }
+    
+    .doctors__subtitle{
+        
+        font-size: var(--size-4xl);
+       
+    }
+    
+    .hor-line{
+        position: absolute;
+        display: flex;
+        gap: .5rem;
+    }
+    
+     .horline-1,
+    .horline-3{
+        /* position: absolute; */
+        width: 10px; 
+        /* height: 1px; */
+        border-bottom: 2px solid var(--clr-rose);
+        margin-top: 13.5rem;
+        margin-left: 1rem;
+    }
+    
+    .horline-2{
+        /* position: absolute; */
+        width: 30px; 
+        /* height: 1px; */
+        border-bottom: 2px solid var(--clr-rose);
+        margin-top: 11.5rem;
+        
+    }
+    
+    .doctors__imgs{
+        position: relative;
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    
+    .fouder-img{
+      
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+    
+    .doctors__circle{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color:rgb(11, 182, 11);
+        color: white;
+        top: 9.5rem;
+      right: 0;
+      margin-right: 49rem;
+      padding: .3rem .5rem;
+    
+       
+    }
+    
+    .name{
+        
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    }
+    
+    .title{
+       margin-left: 4.5rem;
+        margin-top: .5rem;
+        text-transform: uppercase;
+    }
+    
+    /* Dentist */
+    
+    .dentist-img{
+      
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+    }
+    
+    .dentist__circle{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color:rgb(11, 182, 11);
+        color: white;
+        top: 9.5rem;
+      right: 0;
+      margin-right: 30rem;
+      padding: .3rem .5rem;
+    
+       
+    }
+    
+    .dentist__name{
+        font-weight: 800;
+        margin-top: 2rem;
+    }
+    
+    .dentist__title{
+       margin-left: 3rem;
+        margin-top: .5rem;
+        text-transform: uppercase;
+        color: var(--clr-rose);
+        font-size: var(--size-sm);
+        font-weight: 800;
+    }
+    
+    /*   neurologist   */
+    .neurologist-img{
+      
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-top: 5rem;
+    }
+    
+    .neurologist__circle{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color:rgb(11, 182, 11);
+        color: white;
+        top: 10rem;
+      right: 0;
+      margin-right: 9rem;
+      padding: .3rem .5rem;
+    
+       
+    }
+    
+    .neurologist__name{
+        font-weight: 800;
+        margin-top: 2rem;
+        margin-left: 1.2rem;
+    }
+    
+    .neurologist__title{
+       margin-left: 2.5rem;
+        margin-top: .5rem;
+        text-transform: uppercase;
+        font-size: var(--size-sm);
+        font-weight: 800;
+        color: var(--clr-rose);
+    }
+    
+    
+    /* consultant*/
+    
+    .consultant-img{
+      
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+    
+    .consultant__circle{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color:rgb(11, 182, 11);
+        color: white;
+        top: 28rem;
+      right: 0;
+      margin-right: 49rem;
+      padding: .3rem .5rem;
+    
+       
+    }
+    
+    .consultant__name{
+        font-weight: 800;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    
+    .consultant__title{
+       margin-left: 2rem;
+        margin-top: .5rem;
+        text-transform: uppercase;
+        color: var(--clr-rose);
+        font-size: var(--size-sm);
+        font-weight: 800;
+    }
+    
+    /* dentist 2 */
+    
+    .dentist-img-2{
+      
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-top: 3rem;
+    }
+    
+    .dentist__circle-2{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color:rgb(11, 182, 11);
+        color: white;
+        top: 28rem;
+      right: 0;
+      margin-right: 30rem;
+      padding: .3rem .5rem;
+    
+       
+    }
+    
+    .dentist__name-2{
+        font-weight: 800;
+        margin-top: 2rem;
+        margin-left: 1.2rem;
+    }
+    
+    .dentist__title-2{
+       margin-left: 2.5rem;
+        margin-top: .5rem;
+        text-transform: uppercase;
+        font-size: var(--size-sm);
+        font-weight: 800;
+        color: var(--clr-rose);
+    }
+    
+    
+    /* nuerologist 2*/
+    
+    .neurologist-img-2{
+      
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        margin-top: 3rem;
+    }
+    
+    .neurologist__circle-2{
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        background-color:rgb(11, 182, 11);
+        color: white;
+        top: 28rem;
+      right: 0;
+      margin-right: 9rem;
+      padding: .3rem .5rem;
+    
+       
+    }
+    
+    .neurologist__name-2{
+        font-weight: 800;
+        margin-top: 2rem;
+        margin-left: .5rem;
+    }
+    
+    .neurologist__title-2{
+       margin-left: 2.5rem;
+        margin-top: .5rem;
+        text-transform: uppercase;
+        color: var(--clr-rose);
+        font-size: var(--size-sm);
+        font-weight: 800;
+    }
+   
+} 

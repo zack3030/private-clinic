@@ -1,0 +1,373 @@
+.departments__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--clr-main);
+   
+}
+
+.departments__title{
+    font-size: var(--size-sm);
+    font-weight: 300;
+    margin-right: 2rem;
+    margin-top: 2rem;
+   
+}
+
+.departments__subtitle{
+    font-size: var(--size-3xl);
+    margin-left: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.departments__subtitle-1{
+   
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.subtitle-div{
+    position: relative;
+}
+
+.h-line{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+}
+
+ .line-1,
+.line-3{
+    
+    width: 10px; 
+    /* height: 1px; */
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: 9.5rem;
+}
+
+.line-2{
+   
+    width: 30px; 
+    /* height: 1px; */
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: 2rem;
+}
+
+.card__surgery{
+    border: 1px solid white;
+    z-index: 99;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: white;
+}
+
+
+.surgery{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.surgery__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.surgery__description-1{
+    font-size: var(--size-sm);
+    font-weight: 200;
+}
+
+.readmore{
+    text-transform: capitalize;
+    margin: .5rem 0;
+}
+
+.dental__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.dental__description-1{
+    font-size: var(--size-sm);
+    font-weight: 200;
+}
+
+.dental{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.eye__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.eye__description-1{
+    font-size: var(--size-sm);
+    font-weight: 200;
+}
+
+.eye{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.blood__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.blood__description-1{
+    font-size: var(--size-sm);
+    font-weight: 200;
+}
+
+.blood{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.neurology__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.neurology__description-1{
+    font-size: var(--size-sm);
+    font-weight: 200;
+}
+
+.neurology{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.allergic__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.allergic__description-1{
+    font-size: var(--size-sm);
+    font-weight: 200;
+}
+
+.allergic{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/* xs*/
+ @media (min-width:475px){
+   
+}
+
+
+@media (min-width:640px){
+    
+}
+
+/*md*/
+@media (min-width:768px){
+
+   
+    
+    .departments__title{
+        font-size: var(--size-md);
+        font-weight: 300;
+        margin-right: 2rem;
+        margin-top: 2rem;
+       
+    }
+    
+    .departments__subtitle{
+        font-size: var(--size-4xl);
+        margin-left: 1rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .departments__subtitle-1{
+       
+        font-size: var(--size-4xl);
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .subtitle-div{
+        position: relative;
+    }
+    
+    .h-line{
+        position: absolute;
+        display: flex;
+        gap: 1rem;
+    }
+    
+     .line-1,
+    .line-3{
+        
+        width: 30px; 
+        /* height: 1px; */
+        border-bottom: 2px solid var(--clr-rose);
+        margin-top: 10.5rem;
+    }
+    
+    .line-2{
+       
+        width: 60px; 
+        /* height: 1px; */
+        border-bottom: 2px solid var(--clr-rose);
+        margin-top: 2rem;
+    }
+    
+   
+    
+    
+    .surgery{
+        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .surgery__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        margin-bottom: 1.5rem;
+    }
+    
+    .surgery__description-1{
+        font-size: var(--size-sm);
+        font-weight: 200;
+    }
+    
+    .readmore{
+        text-transform: capitalize;
+        margin: .5rem 0;
+    }
+    
+    .dental__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        margin-bottom: 1.5rem;
+    }
+    
+    .dental__description-1{
+        font-size: var(--size-sm);
+        font-weight: 200;
+    }
+    
+    .dental{
+        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .eye__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        margin-bottom: 1.5rem;
+    }
+    
+    .eye__description-1{
+        font-size: var(--size-sm);
+        font-weight: 200;
+    }
+    
+    .eye{
+        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .blood__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        margin-bottom: 1.5rem;
+    }
+    
+    .blood__description-1{
+        font-size: var(--size-sm);
+        font-weight: 200;
+    }
+    
+    .blood{
+        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .neurology__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        margin-bottom: 1.5rem;
+    }
+    
+    .neurology__description-1{
+        font-size: var(--size-sm);
+        font-weight: 200;
+    }
+    
+    .neurology{
+        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .allergic__title{
+        font-size: var(--size-2xl);
+        text-transform: capitalize;
+        margin-bottom: 1.5rem;
+    }
+    
+    .allergic__description-1{
+        font-size: var(--size-sm);
+        font-weight: 200;
+    }
+    
+    .allergic{
+        margin-left: 8rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+}
+
+/*lg*/
+@media (min-width:1024px){
+   
+}
+
+/*xl*/
+ @media (min-width:1280px){
+
+    .cards{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+   
+} 

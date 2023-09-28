@@ -1,0 +1,67 @@
+:root{
+  --clr-main:#f1f8fc;
+  --clr-swirl:#D0CDC9;
+  --clr-rose:#e11d48;
+  --clr-dark:#09090b ;
+  --clr-light:#f1f5f9 ;
+  --clr-slate50:#f8fafc ;
+  --clr-amber:#ffff99 ;
+  --clr-white:#ffffff;
+  --clr-primary:#1746a2;
+  --clr-secondary:#c2fbf9;
+  --clr-secon:#47b5ff;
+  --clr-scroll:#2064eb;
+
+  --clr-new:hsl(60, 91%, 39%) ;
+
+  /*sizes*/
+  --size-xs: 0.5rem;
+  --size-sm: 0.75rem;
+  --size-base: 0.875rem;
+  --size-md: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+
+}
+
+
+
+
+
+*{
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button{
+  display: inline-block;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+a{
+  color: white;
+}

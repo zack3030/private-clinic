@@ -1,0 +1,285 @@
+.header{
+    position: fixed;
+   width: 100%;
+   height: 10%;
+    left: 0;
+    top: 0;
+   
+    align-content: center;
+    
+    background-color: white;
+    z-index: 999;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 .5rem;
+   
+   
+   
+}
+
+.nav__bar{
+    /* transform: translate(0%); */
+    display: none;
+}
+
+
+
+
+
+.logo__circle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--clr-rose);
+    color: white;
+    padding: .5rem;
+    font-weight: 600;
+   text-align: center;
+   margin-top: 1rem;
+   
+  
+}
+
+.logo__title{
+    font-size: var(--size-md);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-left: .5rem;
+   
+
+   
+}
+
+.header__bar{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+.socials{
+   display: none;
+}
+
+
+
+
+
+/* xs*/
+ @media (min-width:475px){
+   
+}
+
+
+ @media (min-width:640px){
+    
+} 
+
+/*md*/
+@media (min-width:768px){
+
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       margin-left: .5rem;
+       margin-right: 1rem;
+       
+       
+    }
+
+    .header__bar{
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1.5rem;
+        cursor: pointer;
+        display: none;
+    }
+    .nav__bar{
+        /* transform: translate(0%); */
+        display: flex;
+       
+       
+        
+    }
+    
+    .menus{
+        display: flex;
+        /* margin-right: 1rem; */
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin-left: 2rem;
+        
+        
+        
+        
+        
+    }
+
+    .menu__links{
+        color: black;
+        text-decoration: none;
+        padding-right: 2rem;
+        font-size: var(--size-md);
+        font-weight: 600;
+    }
+
+    .socials{
+        display: flex;
+       
+    }
+
+    .socials__icons{
+        width: 1rem;
+        height: 1rem;
+        background-color: white;
+        margin-right: .5rem;
+       
+
+        
+       
+    }
+    .socials__icons path{
+   
+        stroke: black;
+    }
+    
+    .socials__icons:hover{
+        transform: translateY(-3px);
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin-left: 0;
+       
+       
+    
+       
+    }
+    
+}
+
+/*lg*/
+@media (min-width:1024px){
+   
+}
+
+/*xl*/
+@media (min-width:1280px){
+
+    .header__container{
+        
+        align-items: center;
+       margin-left: 2rem;
+       margin-right:2rem;
+       
+       
+    }
+
+   
+   
+    
+    .menus{
+        display: flex;
+        /* margin-right: 1rem; */
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin-left: 2rem;
+        
+        
+        
+        
+        
+        
+    }
+
+    .menu__links{
+        color: black;
+        text-decoration: none;
+        padding-right: 2rem;
+        font-size: var(--size-md);
+        font-weight: 600;
+        position: relative;
+      
+    }
+    .menu__links::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80%;
+        height: 1px;
+        background-color: var(--clr-rose);
+        transform: scaleX(0);
+        transition: transform 0.6s ease-in-out;
+    }
+
+    .menu__links:hover::after{
+        transform: scaleX(1);
+    }
+
+   
+
+    .socials__icons{
+        width: 1rem;
+        height: 1rem;
+        margin-right: 1rem;
+       
+
+        
+       
+    }
+    .socials__icons path{
+   
+        stroke: black;
+    }
+    
+    .socials__icons:hover{
+        transform: translateY(-3px);
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        margin-left: 0;
+       
+       
+    
+       
+    }
+
+    .logo__title{
+        font-size: var(--size-md);
+    }
+
+    .logo__circle{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: var(--clr-rose);
+        color: white;
+        padding: 1rem rem;
+        font-size: var(--size-lg);
+        font-weight: 400;
+        margin-top: .5rem;
+       text-align: center;
+       
+      
+    }
+   
+} 
