@@ -88,3 +88,61 @@ rgba(225, 29, 72, 0.5),0 0 100px -10px var(--cr-rose) ;
 .test{
     font-size: var(--size-sm);
 }
+
+.plans__subscriptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plans__card{
+    border: 1px solid white;
+    z-index: 99;
+    width: 18rem;
+    height: 23rem;
+    text-align: center;
+    margin-top: 3rem;
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+.plans-card__title{
+    font-size: var(--size-2xl);
+    text-transform: capitalize;
+    margin: 1.5rem 0;
+}
+
+.plans__card-description{
+    font-size: var(--size-sm);
+    font-weight: 200;
+}
+
+.plans__card-btn{
+display: inline-block;
+font-weight: 600;
+text-decoration: none;
+letter-spacing: -0.05em;
+background-color: white;
+color: black;
+padding: 0.5em 1em;
+border-radius: 18px;
+border: 1px solid rgb(59, 59, 59);
+margin: 1rem 0;
+
+}
+
+.plans-svg{
+    width: 10rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    
+}
+
+.readmore{
+    text-transform: capitalize;
+    margin: .5rem 0;
+}
+
+.plans__card-btn1{
+    margin: 1rem 0;
+}

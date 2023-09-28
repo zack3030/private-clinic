@@ -3,6 +3,7 @@
 .doctors__container{
     position: relative;
     background-color: white;
+    padding-bottom: 3rem;
    
 }
 
@@ -91,7 +92,7 @@
     color: white;
     top: 7.5rem;
   right: 0;
-  margin-right: 15rem;
+  margin-right: 16.5rem;
   padding: .3rem .5rem;
 
    
@@ -128,7 +129,7 @@
     color: white;
     top: 7.5rem;
   right: 0;
-  margin-right: 3.2rem;
+  margin-right: 3.5rem;
   padding: .3rem .5rem;
 
    
@@ -166,7 +167,7 @@
     color: white;
     top: 26.5rem;
   right: 0;
-  margin-right: 15.5rem;
+  margin-right: 16.5rem;
   padding: .3rem .5rem;
 
    
@@ -207,7 +208,7 @@
     color: white;
     top: 26.5rem;
   right: 0;
-  margin-right: 3rem;
+  margin-right: 3.5rem;
   padding: .3rem .5rem;
 
    
@@ -246,7 +247,7 @@
     color: white;
     top: 43.5rem;
   right: 0;
-  margin-right: 15.5rem;
+  margin-right: 16.5rem;
   padding: .3rem .5rem;
 
    
