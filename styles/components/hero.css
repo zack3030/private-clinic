@@ -23,11 +23,16 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-left: 1rem;
+    /* margin-left: .2rem; */
     margin-top: 15rem;
     gap: .5rem;
-    color: var(--clr-main);
-    background-color: transparent;
+    color: black;
+    background-color: var(--clr-main);
+    border: 1px solid var(--clr-rose);
+    left: 0;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    /* background-color: transparent; */
 }
 
 .hero__title{
@@ -65,7 +70,7 @@
 .heroBtn__group{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: .5rem;
     
 }
 
