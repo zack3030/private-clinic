@@ -1,0 +1,122 @@
+.work__process-container{
+    background-color: white;
+    padding: 3rem 2rem;
+}
+
+.work__process-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.work__process-title{
+    font-size: var(--size-sm);
+    font-weight: 300;
+    margin-left: 5rem;
+}
+
+.work__process-subtitle{
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.work__process-subtitle-1{
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    margin-left: 3rem;
+    text-transform: capitalize;
+}
+
+.h-lines{
+    position: relative;
+    display: flex;
+    margin-left: 6rem;
+   
+   
+}
+
+.lines-1{
+    position: absolute;
+    width: 10px; 
+    height: 1px;
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: -0.5rem;
+   
+}
+.lines-3{
+    position: absolute;
+    width: 10px; 
+    height: 1px;
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: -0.5rem;
+    margin-left: 4.5rem;
+   
+}
+
+.lines-2{
+    position: absolute;
+    width: 30px; 
+    /* height: 1px; */
+    border-bottom: 2px solid var(--clr-rose);
+    margin-top: -0.5rem;
+    margin-left: 1.5rem;
+    
+}
+
+.neurology-svg{
+    margin-top: 4rem;
+   
+}
+
+.neurology__work-process-content{
+    margin: 2rem 0;
+}
+
+.cosm__title{
+    text-transform: capitalize;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    font-size: var(--size-lg);
+}
+
+.cosm__desc-1{
+    font-size: var(--size-sm);
+    font-weight: 400;
+    margin-left: 1.5rem;
+}
+
+.cosm__desc-2{
+    font-size: var(--size-sm);
+    font-weight: 400;
+    margin-left: 2.5rem;
+}
+
+.cosm__desc-3{
+    font-size: var(--size-sm);
+    font-weight: 400;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.cosm__btn{
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -0.05em;
+    background-color: white;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    border: 1px solid rgb(59, 59, 59);
+    margin-left: 5rem;
+    
+    }
+
+    .surgery-svg{
+        margin-top: 4rem;
+    }
+
+    .dental-svg{
+        margin-top: 4rem;
+    }
