@@ -12,13 +12,14 @@
 .work__process-title{
     font-size: var(--size-sm);
     font-weight: 300;
-    margin-left: 5rem;
+    margin-left: 7rem;
 }
 
 .work__process-subtitle{
     font-size: var(--size-3xl);
     font-weight: 600;
     text-transform: capitalize;
+    margin-left: 1.5rem;
 }
 
 .work__process-subtitle-1{
@@ -26,6 +27,7 @@
     font-weight: 600;
     margin-left: 3rem;
     text-transform: capitalize;
+    margin-left: 3.5rem;
 }
 
 .h-lines{
@@ -65,7 +67,7 @@
 }
 
 .neurology-svg{
-    margin-top: 1rem;
+    margin-top: 4rem;
    
    
 }
@@ -115,16 +117,16 @@
     }
 
     .surgery-svg{
-        margin-top: 1rem;
+        margin-top: 4rem;
        
     }
 
     .dental-svg{
-        margin-top: 1rem;
+        margin-top: 4rem;
      
     }
 
-    .dental__title{
+    .dental__title-work{
         text-transform: capitalize;
         margin-left: 4.5rem;
         margin-bottom: rem;
@@ -133,11 +135,11 @@
     }
 
     .neurology-svg{
-        margin-top: 1rem;
+        margin-top: 4rem;
        
     }
 
-    .neurology__title{
+    .neurology__title-work{
         text-transform: capitalize;
         margin-left: 4rem;
         margin-bottom: 1rem;
