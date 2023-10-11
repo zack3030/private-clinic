@@ -422,7 +422,7 @@ hr{
        
         z-index: 99;
         width: 18rem;
-        height: 25rem;
+        height: 28rem;
         text-align: left;
         margin-top: 3rem;
         /* padding-left: 1rem; */
@@ -491,9 +491,7 @@ hr{
         font-weight: 200;
       
     }
-   .calender{
-    padding-left: 2rem;
-   }
+   
     
     hr{
         width: 14rem;
