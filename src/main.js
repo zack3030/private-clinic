@@ -11,6 +11,7 @@ import '../styles/components/doctors.css'
 import '../styles/components/banner.css'
 import '../styles/components/plans.css'
 import '../styles/components/news.css'
+import '../styles/components/footer.css'
 import '../styles/utils.css'
 
 
